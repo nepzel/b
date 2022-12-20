@@ -1,3 +1,4 @@
+_______________________________________2,3,4_________________________________________________________________________
 1.Burp suite and webgoat ready
 
 2.in burp:
@@ -22,3 +23,11 @@ but give some other name for that test
 at "test" on the last 3rd line make it as "....//test"
                                             ^^^^^^^^^
                                             Random spat
+for 4th one in changing name:
+_____________________________
+change the jpeg name by adding anything before the actual file name
+example: "lelouch" to"../lelouch"
+-----------------------------------------------------------
+5
+same process
+forward till u get:GET /WebGoat/PathTraversal/random-picture HTTP/1.1
