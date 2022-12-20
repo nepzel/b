@@ -12,3 +12,10 @@ sudo docker stop <container ID>
 sudo docker rmi -f 1eefbd436a5c
 
 Note: Container Id can be obtained by running sudo docker ps
+-------------------------------------------------------------------------------------------
+If Webwolf ain't working:
+1.go to terminal
+2.put this command:
+sudo systemctl restart docker
+3.Then put "sudo docker ps"
+4.sudo systemctl status dock
