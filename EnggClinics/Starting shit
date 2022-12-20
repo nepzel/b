@@ -1,0 +1,14 @@
+To start WebGoat and WebWolf
+
+In Terminal execute 
+sudo docker run -d -p 8080:8080 -p 9090:9090 -e TZ=Europe/Amsterdam webgoat/goatandwolf
+Then in Firefox
+Visit
+http://localhost:8080/WebGoat
+http://localhost:9090/WebWolf
+
+After your work is comlpeted, Please stop the process by executing 
+sudo docker stop <container ID>
+sudo docker rmi -f 1eefbd436a5c
+
+Note: Container Id can be obtained by running sudo docker ps
