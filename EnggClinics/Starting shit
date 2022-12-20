@@ -18,4 +18,5 @@ If Webwolf ain't working:
 2.put this command:
 sudo systemctl restart docker
 3.Then put "sudo docker ps"
-4.sudo systemctl status dock
+4.sudo systemctl status docker
+5.sudo docker rmi -f 1eefbd436a5c
