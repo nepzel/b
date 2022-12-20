@@ -1,0 +1,24 @@
+1.Burp suite and webgoat ready
+
+2.in burp:
+go to proxy
+select open browser
+paste the webgoat local host link..after typing webgoat and wolf command in terminal
+go to a1 traversal
+
+3.in burp:
+turn on intercept
+click forward 2 times
+and right click the paragragh by Send to repeater
+go to repeater in menu bar and press send.
+at the same area go to the bottom of that paragraph
+at "test" on the last 3rd line make it as "../test"
+
+4.Now go to proxy and turn off intercept
+5.it gets updated or else refresh it.
+----------------------
+repeat this shit
+but give some other name for that test
+at "test" on the last 3rd line make it as "....//test"
+                                            ^^^^^^^^^
+                                            Random spat
