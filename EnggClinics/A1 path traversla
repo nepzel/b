@@ -31,3 +31,11 @@ example: "lelouch" to"../lelouch"
 5
 same process
 forward till u get:GET /WebGoat/PathTraversal/random-picture HTTP/1.1
+
+to repeater:
+send
+see this
+Location: /PathTraversal/random-picture?id=3.jpg
+echo -n 'labuser' |sha512sum
+copy the link and paste it
+-------------------------------------------------------
