@@ -23,7 +23,7 @@ ________________________
 <comment><text>&xxe;</text></comment>
 _____________________________________________________________________________________________________________
 Lesson 4 - Modern REST framework
-The same as the previous lesson, just change request header Content-Type to application/xml.
+The same as the previous lesson, just change request header ***Content-Type:application/json to====application/xml****************
 _______________________________________________________________________________________________________________________
 Lesson 7 - Blind XXE assignment
 DTD hosted in WebWolf (see Parameter entities):
