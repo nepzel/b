@@ -1,0 +1,16 @@
+1. Add a comment.
+
+2.Open OWasp
+
+3.Post "http://localhost:8080/WebGoat" in automated scan
+
+4.Attack
+
+5.Check sites on top left corner..a folder drops
+
+6.Right click and attack then click Active scan beside it.
+
+7.A dialog box appears and press start scan.
+
+8. It scans..oohhh
+
